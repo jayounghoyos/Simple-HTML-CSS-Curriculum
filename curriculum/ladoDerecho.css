@@ -1,0 +1,12 @@
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: rgb(250, 143, 2);
+    font-size: 25px;
+}

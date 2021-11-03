@@ -56,7 +56,7 @@ body {
 
 .profileText h1 {
     color: rgb(12, 12, 12);
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 20px;
     border-bottom: 2px solid white;
 }
@@ -82,17 +82,4 @@ body {
 
 .left_side {
     margin: 2px;
-}
-
-.about {
-    margin-bottom: 50px;
-}
-
-.about:last-child {
-    margin-bottom: 0;
-}
-
-.title2 {
-    color: rgb(250, 143, 2);
-    font-size: 25px;
 }
