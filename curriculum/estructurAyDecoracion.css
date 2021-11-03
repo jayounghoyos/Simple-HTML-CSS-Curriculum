@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 20px 25px black;
+}
+
+.container .left_side {
+    position: relative;
+    background-color: var(--main-bg-color);
+    padding: 40px;
+}
