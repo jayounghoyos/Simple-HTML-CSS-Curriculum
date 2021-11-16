@@ -2,16 +2,16 @@
     --main-bg-color: rgb(250, 143, 2);
 }
 
-@media (max-width: 768px) {
+@media screen(max-width: 760px) {
     p {
         font-size: 15px;
     }
     body {
         background-color: white;
-        width: 4px;
+        width: 4000px;
     }
-    container .right_side {
-        width: 200px;
+    container {
+        height: auto;
     }
 }
 

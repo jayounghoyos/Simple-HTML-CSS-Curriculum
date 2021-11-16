@@ -7,7 +7,7 @@
 }
 
 body {
-    background: 804000;
+    background: #804000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 .container {
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 10000px;
     min-height: 1000px;
     margin: 50px;
     background: rgb(255, 255, 255);
