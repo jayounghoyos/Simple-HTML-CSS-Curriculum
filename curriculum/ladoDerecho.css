@@ -2,13 +2,13 @@
     --main-bg-color: rgb(250, 143, 2);
 }
 
-@media screen(max-width: 760px) {
+@media (max-width: 760px) {
     p {
-        font-size: 15px;
+        font-size: 5px;
     }
     body {
         background-color: white;
-        width: 4000px;
+        width: 400px;
     }
 }
 
