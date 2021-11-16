@@ -2,13 +2,16 @@
     --main-bg-color: rgb(250, 143, 2);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     p {
         font-size: 15px;
     }
     body {
         background-color: white;
         width: 4px;
+    }
+    container .right_side {
+        width: 200px;
     }
 }
 
@@ -21,7 +24,7 @@
 }
 
 .title2 {
-    color: rgb(250, 143, 2);
+    color: var(--main-bg-color);
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -41,12 +44,12 @@
     top: 0;
     left: 0;
     height: 100%;
-    background-color: rgb(250, 143, 2);
+    background-color: var(--main-bg-color);
     border-radius: 40px;
 }
 
 .right_side .exp .lineP {
-    border-bottom: 3px solid rgb(250, 143, 2);
+    border-bottom: 3px solid var(--main-bg-color);
     width: 45%;
 }
 
