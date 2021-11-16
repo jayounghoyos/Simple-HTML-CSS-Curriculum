@@ -2,6 +2,16 @@
     --main-bg-color: rgb(250, 143, 2);
 }
 
+@media (max-width: 600px) {
+    p {
+        font-size: 15px;
+    }
+    body {
+        background-color: white;
+        width: 4px;
+    }
+}
+
 .about {
     margin-bottom: 50px;
 }
